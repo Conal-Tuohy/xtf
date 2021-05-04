@@ -183,15 +183,6 @@
             <xsl:with-param name="topGroups" select="'*[1-5]'"/>
             <xsl:with-param name="sort" select="'totalDocs'"/>
          </xsl:call-template>
-
-         <!-- typefaces facet, normally shows top 10 sorted by count, but user can select 'more' 
-              to see all sorted by subject. 
-         -->
-         <xsl:call-template name="facet">
-            <xsl:with-param name="field" select="'facet-typefaces'"/>
-            <xsl:with-param name="topGroups" select="'*[1-5]'"/>
-            <xsl:with-param name="sort" select="'totalDocs'"/>
-         </xsl:call-template>
          
          <!-- subject facet, normally shows top 10 sorted by count, but user can select 'more' 
               to see all sorted by subject. 

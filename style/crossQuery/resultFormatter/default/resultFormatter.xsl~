@@ -311,8 +311,6 @@
                               	<xsl:apply-templates select="facet[@field='facet-styles']"/>
                               	<xsl:apply-templates select="facet[@field='facet-addressee']"/>
                               	<xsl:apply-templates select="facet[@field='facet-language']"/>
-                              	<xsl:comment>typefaces: <xsl:value-of select="facet[@field='facet-typefaces']"/></xsl:comment>
-                              	<xsl:apply-templates select="facet[@field='facet-typefaces']"/>
                               	<xsl:apply-templates select="facet[@field='facet-plant-names']"/>
                                  <!--<xsl:apply-templates select="facet[@field='facet-subject']"/>-->
                                  <xsl:apply-templates select="facet[@field='facet-date']"/>
